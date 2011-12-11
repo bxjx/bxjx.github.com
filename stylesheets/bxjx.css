@@ -15,3 +15,10 @@ h1{
   text-align: center;
 }
 
+#contact{
+  margin-top: 20px;
+}
+
+hr.large{
+  height: 8px;
+}
