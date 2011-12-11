@@ -56,7 +56,7 @@
 
       <hr>
       <p>
-       I'd probably have to say Javascript. It was the main language at my first job. In every job since, I've used it. I've enjoyed building increasingly more sophisticated applications with it as the languages ecosystem has evolved. Recently I used it to build a html5 web application designed to be able to be used offline and on mobile devices. I've also enjoyed using it with Node.js, where it is well adapted to high concurrency event-based architectures.
+      I'd probably have to say Javascript. It was the main language at my first job. In every job since, I've used it. I've enjoyed building increasingly more sophisticated applications with it as the language's ecosystem has evolved. Recently I used it to build a html5 web application designed to be able to be used offline and on mobile devices. I've also enjoyed using it with Node.js, where it is well adapted to high concurrency event-based architectures.
       </p>
     </div>
 
@@ -70,13 +70,13 @@
       <ol>
         <li>The main weakness used to be inconsistent APIs across different browsers. This weakness has largely been overcome with abstraction libraries like Prototype.js, and in more recent times, jQuery, Modernizer and jQuery mobile.</li>
         <li>There are many parts to language that can only be avoided with knowledge of best practices: e.g. using <a href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Immediately-Invoked Function Expressions</a> to control scope, potential for memory leaks, leaving off the var keyword etc.</li> 
-        <li>It's support for closures make it a great language for using functional programming, but the language is not optimsed for that usage. E.g., a lot of modern javascript makes use of anonymous functions - yet these are unweildly to use.</li>
+        <li>It's support for closures make it a great language for using functional programming, but the language is not optimised for that usage. E.g., a lot of modern javascript makes use of anonymous functions - yet this is involves cumbersome syntax.</li>
       </ol>
       <p>Strengths:</p>
       <ol>
-        <li>Ubiquitous! Nearly any computer or mobile device can run your code</li>
+        <li>It is ubiquitous. Nearly any computer or mobile device can run your code</li>
         <li>Adapted for event-based architectures making it great for interface programming and high concurrency network applications.</li>
-        <li>Healthy ecosystem: e.g. jquery and it's many plugins, micro frameworks like backbone.js, jasmine and rhino for automated testing.</li>
+        <li>Healthy ecosystem: e.g. jQuery and it's many plugins, micro-frameworks like Backbone.js, and automated testing libraries such as Jasmine and Sinon.js.</li>
         <li>It's the ancestor of <a href="http://jashkenas.github.com/coffee-script/">Coffescript</a>, my current favorite language!</li>
       </ol>
     </div>
@@ -89,13 +89,12 @@
 
       <hr>
       <p>
-      Oooh, now this is tough! Is it Vi, is it linux itself, git, or one of the great web frameworks i've used like Drupal or Ruby on Rails? In the end, I'd have to say Firefox Mozilla. I cut my teeth in this code, so it has a special place in my heart. Mozilla always advocated free and open web technologies - which is something I believe in.
+      <p>Oooh, now this is tough! Is it Vi? is it Linux itself? Git? or one of the great web frameworks I've used like Drupal or Ruby on Rails? In the end, I'd have to say Firefox Mozilla. I cut my teeth in this code, so it has a special place in my heart. Mozilla always advocated free and open web technologies - which is something I believe in.</p>
+      <p>Mozilla Firefox has also had some of the best web development tools. Notable tools are Firebug and the Web Development toolbar. Firebug for long time was THE tool to use if you were doing AJAX development. Now most browsers (including Firefox) have provided native tools with similar functionality - but a lot of them are largely clones of Firebug. A web developer should be familiar with all browsers, but Firefox is still probably the best to develop in.</p>
 
-      <p>Mozilla Firefox has also had some of the best web development tools. Notable tools are Firebug and the Web Development toolbar. Firebug for long time was THE tool to use if you were doing AJAX development. Now most browsers (including Firefox) have provided native tools with similar functionality - but a lot of them are largely clones of firebug. A web developer should be familiar with all browsers, but Firefox is still probably the best to develop in.</p>
-
-      <p>Mozilla's commitment to open source allows others to alter and reuse it without restrictive proprietary licensing. One example of a project that has benefited from this is <a href="https://www.torproject.org/">Tor - the p2p anonymiser project</a>. Tor uses a modified firefox to make this technology accessible and easy to use.</p>
-
+      <p>Mozilla's commitment to open source allows others to alter and reuse it without restrictive proprietary licensing. One example of a project that has benefited from this is <a href="https://www.torproject.org/">Tor - the p2p anonymiser project</a>. Tor uses a modified Firefox to make this technology accessible and easy to use.</p>
       <p>I also love how the project has successfully inspired and harnessed volunteers - not unlike Amnesty!</p>
+
     </div>
 
 		<div class="sixteen columns">
@@ -106,9 +105,17 @@
 
       <hr>
       <p>
-      I would argue that the most important quality would be passion! Firstly, passion for web development. A web developer should be genuinely excited about programming and web technologies. They should program because they enjoy it. They should not have to be reminded to explore new technologies and methodologies - a passionate programmer never stops learning. I would consider hiring an experienced passionate programmer even if they did not currently possess all the desired skills. In time, a good passionate programmer will learn the skills better than a less motivated programmer that already has the experience. Passion also often indicates mastery - or at least, a desire to master a skill.</p>
 
-      <p>Secondly, they should be passionate about Amnesty and the causes it supports. A candidate should believe that this work is important and worth doing.</p>
+      I would argue that the most important quality would be passion! 
+      </p>
+
+      <p>
+      Firstly, passion for web development. A web developer should be genuinely excited about programming and web technologies. They should program because they enjoy it. They should not have to be reminded to explore new technologies and methodologies - a passionate programmer never stops learning. I would consider hiring an experienced passionate programmer even if they did not currently possess all the desired skills. In time, a good passionate programmer will learn the skills better than a less motivated programmer that already has the experience. Passion also often indicates mastery - or at least, a desire to master a skill.
+      </p>
+
+      <p>
+      Secondly, they should be passionate about Amnesty and the causes it supports. A candidate should believe that this work is important and worth doing.
+      </p>
 
     </div>
 
@@ -119,9 +126,10 @@
 
       <hr>
       <p>
-      My first reaction is that I would not expect a Point class to be able to implement the Shape interface. I would seek clarification on the conceptualisation of Point in this context, but shapes typically require two or more points. If a Point is not a shape, then I'd alter the Point class to implement a different interface.</p>
-
-      <p>The inheritance described in the diagram is generally correct. Child classes extend parent classes and appear to provide more specify implementation. It seems worth noting that the parent node in the diagram is an Interface. Technically there is no problem with this, but if there is shared functionality between the classes implementing Shape, then it may be worth having them inherit from a common non-abstract super class.</p>
+      My first reaction is that I would not expect a Point class to be able to implement the Shape interface. I would seek clarification on the conceptualisation of Point in this context, but shapes typically require two or more points. If a Point is not a shape, then I'd alter the Point class to implement a different interface.
+      </p>
+      <p>
+      The inheritance described in the diagram is generally correct. Child classes extend parent classes and appear to provide more specific implementation. It seems worth noting that the parent node in the diagram is an Interface. Technically there is no problem with this, but if there is shared functionality between the classes implementing Shape, then it may be worth having them inherit from a common non-abstract super class.</p>
 
     </div>
 
