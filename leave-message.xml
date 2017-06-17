@@ -1,0 +1,4 @@
+<Response>
+  <Speak>You have reached the message bank for Newcastle Climate Justice Uprising. Please leave a message after the tone.</Speak>
+  <Record playBeep="true" maxLength="120"/>
+</Response>
